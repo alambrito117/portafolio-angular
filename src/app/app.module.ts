@@ -8,6 +8,13 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
+import { BlogComponent } from './pages/blog/blog.component';
+import { BlogPostComponent } from './pages/blog-post/blog-post.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { DesignStylesComponent } from './pages/design-styles/design-styles.component';
+import { IndexComponent } from './pages/index/index.component';
+import { DocumentationComponent } from './pages/documentation/documentation.component';
+import { DocumentacionComponent } from './pages/documentacion/documentacion.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +23,14 @@ import { ItemComponent } from './pages/item/item.component';
     FooterComponent,
     PortafolioComponent,
     AboutComponent,
-    ItemComponent
+    ItemComponent,
+    BlogComponent,
+    BlogPostComponent,
+    ContactComponent,
+    DesignStylesComponent,
+    IndexComponent,
+    DocumentationComponent,
+    DocumentacionComponent
   ],
   imports: [
     BrowserModule,
