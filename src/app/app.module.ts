@@ -13,7 +13,6 @@ import { BlogPostComponent } from './pages/blog-post/blog-post.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { DesignStylesComponent } from './pages/design-styles/design-styles.component';
 import { IndexComponent } from './pages/index/index.component';
-import { DocumentationComponent } from './pages/documentation/documentation.component';
 import { DocumentacionComponent } from './pages/documentacion/documentacion.component';
 
 @NgModule({
@@ -29,7 +28,6 @@ import { DocumentacionComponent } from './pages/documentacion/documentacion.comp
     ContactComponent,
     DesignStylesComponent,
     IndexComponent,
-    DocumentationComponent,
     DocumentacionComponent
   ],
   imports: [
