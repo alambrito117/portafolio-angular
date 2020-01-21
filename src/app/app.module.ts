@@ -13,7 +13,7 @@ import { BlogPostComponent } from './pages/blog-post/blog-post.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { DesignStylesComponent } from './pages/design-styles/design-styles.component';
 import { IndexComponent } from './pages/index/index.component';
-
+import {  HttpClientModule} from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +30,8 @@ import { IndexComponent } from './pages/index/index.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
