@@ -6,6 +6,14 @@
     animation-fill-mode: both;
   }
 
+  /*
+  Carga animacion
+*/
+svg path,
+svg rect{
+  fill: black;
+}
+
   @media (print), (prefers-reduced-motion: reduce) {
     .animated {
       -webkit-animation-duration: 1ms !important;

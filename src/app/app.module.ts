@@ -14,6 +14,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { DesignStylesComponent } from './pages/design-styles/design-styles.component';
 import { IndexComponent } from './pages/index/index.component';
 import {  HttpClientModule} from '@angular/common/http';
+import { SearchComponent } from './pages/search/search.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +27,8 @@ import {  HttpClientModule} from '@angular/common/http';
     BlogPostComponent,
     ContactComponent,
     DesignStylesComponent,
-    IndexComponent
+    IndexComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
